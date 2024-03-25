@@ -1,11 +1,11 @@
-const Restaurant = require('../models/restaurant.model');
-const restaurants = require('./restaurants.json');
+const Cat = require('../models/cat.model');
+const cats = require('./cats.json');
 
 (async () => {
   const mongoose = require('mongoose');
 
   const MONGO_URI =
-    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Final_Project_Server';
+    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/cats-server';
 
   mongoose
     .connect(MONGO_URI)
@@ -18,38 +18,30 @@ const restaurants = require('./restaurants.json');
     });
 
   try {
-    await Restaurant.deleteMany();
+    await Cat.deleteMany();
     console.log('DB cleaned');
 
-    const modelAdaptedRestaurants = restaurants.map(
+    const modelAdaptedCats = cats.map(
       ({
         name,
-        neighborhood,
-        address,
         latlng: { lat, lng },
         image,
-        cuisine_type,
-        operating_hours,
-        reviews,
+
       }) => {
         return {
           name,
-          neighborhood,
-          address,
           location: {
             type: 'Point',
             coordinates: [lat, lng],
           },
-          image,
-          cuisine_type,
-          operating_hours,
-          reviews,
+          image
+
         };
       }
     );
 
-    const restaurantsDb = await Restaurant.insertMany(modelAdaptedRestaurants);
-    console.log(`Successful DB Seed with restaurants ${restaurantsDb}!`);
+    const catsDb = await Cat.insertMany(modelAdaptedCats);
+    console.log(`Successful DB Seed with cats ${catsDb}!`);
   } catch (error) {
     console.log('error', error);
   } finally {
