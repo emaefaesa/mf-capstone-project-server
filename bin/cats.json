@@ -1,74 +1,98 @@
 [
     {
-        "id": 1,
         "name": "Tinyas",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.553645196453566,
+            "lng": 1.7549266175212481
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 2,
         "name": "Huesitos",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.553645196453566,
+            "lng": 1.7549266175212481
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 3,
         "name": "Dax",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.421331680676325,
+            "lng": 2.142249311727487
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 4,
         "name": "Timi",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.553645196453566,
+            "lng": 1.7549266175212481
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 5,
         "name": "Nena",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.553645196453566,
+            "lng": 1.7549266175212481
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 6,
         "name": "Misifú",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.553645196453566,
+            "lng": 1.7549266175212481
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 7,
         "name": "Pinkie",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.534716796335665,
+            "lng": 1.7681062022279943
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 8,
         "name": "Coco",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.65027296284742,
+            "lng": -0.9100878442442334
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 9,
         "name": "Mango",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.65027296284742,
+            "lng": -0.9100878442442334
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 10,
         "name": "Iaio",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.48300256394253,
+            "lng": 1.9184636595264664
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 11,
         "name": "Aira",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.48300256394253,
+            "lng": 1.9184636595264664
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     },
     {
-        "id": 12,
         "name": "Aba",
-        "location": "171 E Broadway, New York, NY 10002",
+        "location": {
+            "lat": 41.48300256394253,
+            "lng": 1.9184636595264664
+        },
         "image": "https://cdn2.thecatapi.com/images/dmf.jpg"
     }
 ]

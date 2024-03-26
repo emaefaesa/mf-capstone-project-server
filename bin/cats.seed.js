@@ -24,7 +24,7 @@ const cats = require('./cats.json');
     const modelAdaptedCats = cats.map(
       ({
         name,
-        latlng: { lat, lng },
+        location: { lat, lng },
         image,
 
       }) => {
