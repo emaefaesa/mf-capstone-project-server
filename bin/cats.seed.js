@@ -11,7 +11,7 @@ const cats = require('./cats.json');
     .connect(MONGO_URI)
     .then((x) => {
       const dbName = x.connections[0].name;
-      console.log(`Connected to Mongo! Database name: "${dbName}"`);
+      console.log(`😎 Connected to Mongo! Database name: "${dbName}"`);
     })
     .catch((err) => {
       console.error('Error connecting to mongo: ', err);
@@ -19,7 +19,7 @@ const cats = require('./cats.json');
 
   try {
     await Cat.deleteMany();
-    console.log('DB cleaned');
+    console.log('DB cleaned!🫧');
 
     const modelAdaptedCats = cats.map(
       ({

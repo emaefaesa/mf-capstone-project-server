@@ -69,9 +69,7 @@ const editOneCat = async (req, res, next) => {
       return res.status(400).json({ msg: 'Please fill in all fields!' });
     }
 
-    /*   if (!cuisine_type || !operating_hours || !reviews) {
-        return res.status(400).json({ msg: 'Please fill in all fields!' });
-      } */
+
 
     if (!Types.ObjectId.isValid(cat_id)) {
       return res.status(400).json({ msg: 'Invalid cat id!' });
