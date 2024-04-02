@@ -70,7 +70,6 @@ const editOneCat = async (req, res, next) => {
     }
 
 
-
     if (!Types.ObjectId.isValid(cat_id)) {
       return res.status(400).json({ msg: 'Invalid cat id!' });
     }
