@@ -1,8 +1,11 @@
-# Project - Restaurant
+# CADDS!😺 Building (and assimilating) my first MERN app! (Mongo, Express, React.JS, Node)
 
-## Description
+Ok, ok... CADDS is is a MERN app that displays some...
 
-This is a full-stack application that allows users to find and review restaurants. Users can create an account, log in, and add restaurants to their favorites. They can also add, edit, and delete restaurants.
+     /\_/\
+    ( o.o )
+     > ^ <
+
 
 ## Installation
 
@@ -43,19 +46,12 @@ npm run dev
 
 | URL path                    | HTTP Method       | Response                          | Action                        |
 | :--------------------------:|:-----------------:| :--------------------------------:| :----------------------------:|
-| /api/restaurants/list       | GET               | [restaurants]                     | Get all restaurants     |
-| /api/restaurants/getOne/:restaurant_id            | GET               | {restaurant}                | Get one Restaurant     |
-| /api/restaurants/create            | POST               | {createdRestaurant}                | Create Restaurant      |
-| /api/restaurants/edit/:restaurant_id            | PUT               | {editedRestaurant}                | Edit one restaurant     |
-| /api/restaurants/delete/:restaurant_id           | DELETE               | {msg: "Restaurant successfully deleted!" }                | Delete one restaurant     |
+| /api/cats/list       | GET               | [cats]                     | Get all cats     |
+| /api/cats/getOne/:cat_id            | GET               | {cat}                | Get one Cat     |
+| /api/cats/create            | POST               | {createdCat}                | CreateCat      |
+| /api/cats/edit/:cat_id            | PUT               | {editedCat}                | Edit one restaurant     |
+| /api/cats/delete/:cat_id           | DELETE               | {msg: "Cat successfully deleted!" }                | Delete one cat     |
 
-## **User routes**:
-
-| URL path                    | HTTP Method       | Response                          | Action                        |
-| :--------------------------:|:-----------------:| :--------------------------------:| :----------------------------:|
-| /api/users/getFavoriteRestaurants              | GET               | [restaurants]                           | Get logged user's favorite restaurants |
-| /api/users/likeRestaurant/:restaurant_id              | PUT               | {updatedUser}                           | Like Restaurant |
-| /api/users/dislikeRestaurant/:restaurant_id              | PUT               | {updatedUser}                           | Dislike Restaurant |
 
 ## **Auth routes**:
 
